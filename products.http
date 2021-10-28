@@ -1,0 +1,13 @@
+GET http://localhost:4000/products
+
+###
+
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name": "Laptom lenovo",
+    "category": "Laptops",
+    "price": 999.99,
+    "imgUrl": "https://m.media-amazon.com/images/I/61aTywrhyBS._AC_SY355_.jpg"
+}
